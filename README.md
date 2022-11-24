@@ -30,7 +30,7 @@ for (int i = 0; i < n; i++)
     arr[i] = Console.ReadLine();
     if(arr[i].Length <= 3) 
      {
-      arrres[j] += arr[i];
+      arrres[j] = arr[i];
       j++;
      }
  }
